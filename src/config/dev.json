@@ -1,0 +1,19 @@
+{
+    "plugin": "k-slider",
+    "scripts": [
+        "slider.js",
+        "custom-slider.js"
+    ],
+    "assets": [
+        "slider.css"
+    ],
+    "classes": [
+        "..\/vendor\/autoload"
+    ],
+    "processor_namespace": "KSlider\\Processor\\",
+    "processors": [
+        "SliderProcessor"
+    ],
+    "controller_namespace": "KSlider\\Controller\\",
+    "controllers": []
+}

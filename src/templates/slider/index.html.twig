@@ -1,0 +1,10 @@
+<div id="{{slider_id}}" class="slider">
+   {% for id, image in images %}
+        <div><img class="lightbox-trigger" alt="{{image['alt']}}" src="{{image['image']}}" /></div>
+   {% endfor %}
+</div>
+
+<div id="slider-navigation-{{slider_id}}" class="slider-navigation">
+<a id="prev-{{slider_id}}" class="slider-prev" href="javascript:void(0)"><</a>
+<a id="next-{{slider_id}}" class="slider-next" href="javascript:void(0)">></a>
+</div>

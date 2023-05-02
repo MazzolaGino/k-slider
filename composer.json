@@ -1,0 +1,17 @@
+{
+    "name": "k-slider\/wordpress-plugin",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "KSlider\\": "src\/"
+        }
+    },
+    "authors": [
+        {
+            "name": "klib user",
+            "email": "user@sample.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
